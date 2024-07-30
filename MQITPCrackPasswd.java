@@ -9,7 +9,7 @@ import java.io.IOException;
 public class MQITPCrackPasswd {
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.out.println("Usage: java -cp .:com.ibm.mq.ipt.jar MQITPCrackPasswd <version> <encodedPasswordFilePath>");
+            System.out.println("Usage: java -cp .:libs/com.ibm.mq.ipt.jar MQITPCrackPasswd <protection mode> <encodedPasswordFilePath>");
             return;
         }
 
